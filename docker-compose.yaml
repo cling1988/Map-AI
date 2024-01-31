@@ -1,0 +1,25 @@
+version: '3.9'
+
+services:
+  map-ai:
+    container_name: map-ai
+    env_file:
+      - .env
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - /home/seeling/development/Map-AI/data:/data
+    ports:
+      - 0.0.0.0:60001:60001
+    depends_on:
+      - postgres
+
+  postgres:
+    image: postgres:latest
+    ports:
+      - 5432:5432
+    environment:
+      - POSTGRES_PASSWORD=test-password
+      - POSTGRES_USER=test-user
+      - POSTGRES_DB=mapdb

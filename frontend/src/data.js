@@ -1,0 +1,8 @@
+export const info = [
+    { id:1, name: "Subway Menara UOA Bangsar", address: "Jalan Bangsar Utama 1, Unit 1-2-G, Menara UOA Bangsar, Kuala Lumpur, 59000", operation: "Monday - Sunday, 8:00 AM - 8:00 PM", latitude: 3.128099, longitude: 101.678678 },
+    { id:2, name: "Subway Jln Pinang", address: "G9, Wisma UOA II, 19, Jalan Pinang, Kuala Lumpur, 50450", operation: "Monday - Saturday, 8:00 AM – 9:00PM,Sunday, 11:30 AM – 6:30PM", latitude: 3.152705, longitude: 101.712034 },
+    { id:3, name: "Subway UOA Damansara", address: "Unit 50-G-5, Ground Floor, Wisma UOA Damansara, No. 50, Jalan Dungun, Kuala Lumpur, 50490", operation: "Monday - Saturday, 8:00 AM – 8:30PM,Sunday, Closed", latitude: 3.151729, longitude: 101.666006 },
+    { id:4, name: "Subway Mont Kiara", address: "E-01-16 ,Block E, Plaza Mont Kiara, 2 Jalan Kiara, Mont Kiara, Kuala Lumpur, 50480", operation: "Monday - Sunday, 10:00 AM - 10:00 PM", latitude: 3.165686, longitude: 101.651956 },
+    { id:5, name: "Subway Avenue K", address: "Lot UC-8 & 9, Upper Concourse Level, Avenue K, No. 156, Jalan Ampang, Kuala Lumpur, 50450", operation: "Monday - Sunday, 8:00 AM - 10:00 PM", latitude: 3.159477, longitude: 101.713515 },
+    { id:6, name: "Subway Berjaya Times Square", address: "Lot 03-103, 3rd Floor, Berjaya Times Square, No. 1, Jalan Imbi, Kuala Lumpur, 55100", operation: "Monday - Sunday, 10:00 AM - 10:00 PM", latitude: 3.142198, longitude: 101.710551 },
+]
